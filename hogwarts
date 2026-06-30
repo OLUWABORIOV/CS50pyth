@@ -1,0 +1,39 @@
+#[] square bracket indicates a type of list
+#{} curly braces indicat a dictionary
+students = [
+         {"name": "Hermoine", "house": "Griffindor", "patronous": "otter"},
+         {"name": "Harry", "house": "Griffondor", "patronous": "stag"},
+         {"name": "Ron", "house": "Griffondor", "patronous": "Jack Russell terrier"},
+         {"name": "Draco", "house": "Slytherin", "patronous": None}
+          
+]
+
+for student in students:
+    print(student["name"], student["house"], student["patronous"], sep=", ")
+
+
+
+# students = {
+#     "Hermoine": "Griffindor",
+#     "Harry": "Griffindor",
+#     "Ron": "Griffindor",
+#     "Draco": "Slytherin"}
+
+# for student in students:
+#   print(student, students[student])
+
+
+
+
+
+#students = ["Hermoine", "Harry", "Ron"]
+
+# for loop to print each student's nameThis means:
+
+#"Go through every item inside the students list, one at a time."
+# for i in range(len(students)): # range function does not let you write to much.                     # for i in [0, 1, 2]:  instead of fillingthe list array to 1000 use range and specify the number
+#     print(i + 1, students[i])
+    
+
+
+    
