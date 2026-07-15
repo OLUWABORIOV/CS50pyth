@@ -1,9 +1,10 @@
-import random 
 
-cards = ["jack", "queen", "king"]
-random.shuffle(cards)
-for card in cards:
-    print(card)
+# import random 
+# # Shuffling a deck of cards
+# cards = ["jack", "queen", "king"]
+# random.shuffle(cards)
+# for card in cards:
+#     print(card)
 
 
 
